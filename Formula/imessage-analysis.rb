@@ -1,8 +1,8 @@
 class ImessageAnalysis < Formula
   desc "Extract, query, and analyse your Mac iMessage history"
   homepage "https://github.com/DecisionNerd/imessage-analysis"
-  url "https://github.com/DecisionNerd/imessage-analysis/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 ""
+  url "https://github.com/DecisionNerd/imessage-analysis/releases/download/v0.1.3/imessage-analysis-0.1.3.tar.gz"
+  sha256 "d8947b42534c7fdd60533cb3e8cde0f8ff80e174e1df78577f53c990960057d1"
   license "LicenseRef-CC-BY-NC-4.0"
 
   depends_on "rust" => :build
