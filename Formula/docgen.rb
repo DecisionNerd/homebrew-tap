@@ -1,25 +1,25 @@
 class Docgen < Formula
-  desc "Scaffold a standardized, BDD-oriented docs/ tree into a git repo, with templates designed for AI agents to fill in."
+  desc "Scaffold a standardized, BDD-oriented docs/ tree for AI agents to fill in"
   homepage "https://github.com/DecisionNerd/docgen"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/DecisionNerd/docgen/releases/download/v0.1.0/docgen-aarch64-apple-darwin.tar.xz"
-      sha256 "a8d1b404ee49193787a644945525e1b79e79aaa6fd2c01e89fd332eff8fb76a5"
+      url "https://github.com/DecisionNerd/docgen/releases/download/v0.2.0/docgen-aarch64-apple-darwin.tar.xz"
+      sha256 "c2aa174a60b37b79628043362a8e5e0b9c59e75448cf7093253ddbc411838c55"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/DecisionNerd/docgen/releases/download/v0.1.0/docgen-x86_64-apple-darwin.tar.xz"
-      sha256 "bbc0ff5ef9e8e455bac2faa2c313e8b15319e4c25d02a92a49294b45c8d07777"
+      url "https://github.com/DecisionNerd/docgen/releases/download/v0.2.0/docgen-x86_64-apple-darwin.tar.xz"
+      sha256 "7734bd368e10c37d3369245ceac3d1a5a2e918df2f967aa0eb060cc61e48fad5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/DecisionNerd/docgen/releases/download/v0.1.0/docgen-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5567e58cd076c3ba3b0164668e96e6e99a44bbb8418bf02a33196cfbc781e87c"
+      url "https://github.com/DecisionNerd/docgen/releases/download/v0.2.0/docgen-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4b3f3a902a93c4cd9d4a515069802657e8685586cb6f69cdc70d6299a6898cd6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/DecisionNerd/docgen/releases/download/v0.1.0/docgen-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "144c8300ed2cf83284a18f221fdc6187273a57fe549b230f20aa82ec7f0fadcb"
+      url "https://github.com/DecisionNerd/docgen/releases/download/v0.2.0/docgen-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d8a5a12001ead538cefe42a03b6a8c8868444100dbe36e08f4b0ae063fdd2730"
     end
   end
   license "MIT"
