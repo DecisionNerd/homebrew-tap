@@ -3,10 +3,10 @@
 class ImessageAnalysis < Formula
   desc "Query and analyse your iMessage history — AI agent, CLI, or Python"
   homepage "https://github.com/DecisionNerd/imessage-analysis"
-  url "https://github.com/DecisionNerd/imessage-analysis/releases/download/v0.1.4/imessage-analysis-0.1.4-macos-arm64.tar.gz"
-  sha256 "a0f2b55e09342d4c053ac086e71a29d9a7f659e36fefcef88de36697bdf76985"
+  url "https://github.com/DecisionNerd/imessage-analysis/releases/download/v0.2.0/imessage-analysis-0.2.0-macos-arm64.tar.gz"
+  sha256 "4982fefb2a5aab351f26fb3146b528f81c252d942a1a72d8edac12e35217d14a"
   license "GPL-3.0-only"
-  version "0.1.4"
+  version "0.2.0"
 
   depends_on :macos
 
